@@ -5,10 +5,10 @@ env.read_env()
 
 environments = {
     "local": {
-        "host_url": "https://jsonplaceholder.typicode.com/",
+        "host_url": "https://sta-api.17app.co/api/v1/",
     },
     "staging": {
-        "host_url": "https://jsonplaceholder.typicode.com/",
+        "host_url": "https://sta-api.17app.co/api/v1/",
     },
     "production": {
         "host_url": "https://jsonplaceholder.typicode.com/",

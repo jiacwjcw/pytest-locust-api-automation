@@ -1,0 +1,66 @@
+{
+    "user1": {
+        "user_info": {
+            "user_id": "1dd3c360-dedc-4644-b6b7-0af4e5a88f02",
+            "open_id": "andrewsta"
+        },
+        "archives": [{
+                "is_deleted": false,
+                "visibility": "public",
+                "id": "archive-e2460a87-6d24-4428-898a-43ee4405130a",
+                "metadata": {
+                    "caption": "mock_public_archive",
+                    "coverPhotoURL": "",
+                    "visibility": 1,
+                    "labels": [
+                        "mock_label_1",
+                        "mock_label_2"
+                    ]
+                }
+            },
+            {
+                "is_deleted": false,
+                "visibility": "private",
+                "id": "archive-e303f5f9-9274-4319-b635-46da4cbba71b",
+                "metadata": {
+                    "caption": "mock_private_archive",
+                    "coverPhotoURL": "",
+                    "visibility": 2,
+                    "labels": [
+                        "mock_label_1",
+                        "mock_label_2"
+                    ]
+                }
+            },
+            {
+                "is_deleted": true,
+                "id": "archive-24341187-3641-4d8c-af85-ea04da9fa02d"
+
+            },
+            {
+                "is_dummy_archive": true,
+                "id": "dummy_archive"
+            }
+        ]
+    },
+    "metadata": {
+        "caption": {
+            "empty": "",
+            "normal": "mock_caption",
+            "long_caption": "long caption: tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt "
+        },
+        "coverPhotoURL": {
+            "empty": "",
+            "normal": "mock_cover_photo_url"
+        },
+        "visibility": {
+            "dummy": 0,
+            "public": 1,
+            "private": 2
+        },
+        "labels": {
+            "empty": [],
+            "normal": ["mock_label1", "mock_label2"]
+        }
+    }
+}

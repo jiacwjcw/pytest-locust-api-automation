@@ -5,3 +5,4 @@ locust==1.2.3
 pytest==6.0.1
 requests==2.24.0
 environs==8.0.0
+click==8.0.2
